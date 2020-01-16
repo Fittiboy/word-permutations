@@ -9,7 +9,7 @@ words = []
 letters = ['W', 'L', 'P', 'B', 'M', 'E']
 
 def make_all_words(list, word_length, word=""):
-    if len(word) == int(word_length):
+    if len(word) == word_length:
         words.append(word)
     else:
         index = len(word)
